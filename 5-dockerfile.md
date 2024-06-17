@@ -51,13 +51,19 @@ La opción -t se utiliza para etiquetar la imagen que se está construyendo con 
  
 ### Ejecutar el archivo Dockerfile y construir una imagen en la versión 1.0
 ```
-
+docker build -t mi-imagen-centos:1.0 .
 ```
 
 **¿Cuántos pasos se han ejecutado?**
+6 pasos
+
+
+![img](imagenes/img3.PNG)
+![img](imagenes/img4.PNG)
+
 
 ### Inspeccionar la imagen creada
-# COMPLETAR CON UNA CAPTURA
+
 
 **Modificar el archivo index.html para incluir su nombre**
 **¿Cuántos pasos se han ejecutado? ¿Observa algo diferente en la creación de la imagen**
@@ -72,9 +78,9 @@ Docker usa un mecanismo de caché cuando crea imágenes para acelerar el proceso
 
 ### Crear un contenedor a partir de las imagen creada, mapear todos los puertos
 ```
-
+docker run -d -p 1025:80 mi-imagen-centos
 ```
-
+![img](imagenes/img5.PNG)
 ### ¿Con que puerto host se está realizando el mapeo?
 # COMPLETAR CON LA RESPUESTA
 
