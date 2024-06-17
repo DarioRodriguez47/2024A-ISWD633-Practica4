@@ -58,8 +58,8 @@ docker build -t mi-imagen-centos:1.0 .
 6 pasos
 
 
-![mapeo](imagenes/img3.PNG)
-![mapeo](imagenes/img4.PNG)
+![image](imagenes/img3.png)
+![image](imagenes/img4.png)
 
 
 ### Inspeccionar la imagen creada
