@@ -10,6 +10,8 @@ Asignar núcleos de CPU específicos:
 ```
 
 **¿Como saber el numero de procesadores virtuales que tiene una máquina?**
+![image]()
+
 
 ### Para crear y ejecutar los siguientes contenedores usar la imagen de nginx:alpine
 
