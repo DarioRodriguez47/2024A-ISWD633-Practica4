@@ -80,7 +80,7 @@ Docker usa un mecanismo de caché cuando crea imágenes para acelerar el proceso
 ```
 docker run -d -p 1025:80 mi-imagen-centos
 ```
-![img](imagenes/img5.PNG)
+![image](imagenes/img5.png)
 ### ¿Con que puerto host se está realizando el mapeo?
 # COMPLETAR CON LA RESPUESTA
 
